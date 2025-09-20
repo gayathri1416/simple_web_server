@@ -1,5 +1,7 @@
 from http.server import HTTPServer, BaseHTTPRequestHandler
 content = '''
+
+<!doctype html>
 <html>
 <head>
   <title>TCP/IP Protocol Suite</title>
@@ -51,6 +53,8 @@ content = '''
   </ol>
 </body>
 </html>
+
+
 '''
 
 class Myserver(BaseHTTPRequestHandler):

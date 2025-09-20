@@ -24,6 +24,7 @@ Testing the webserver.
 ```
 from http.server import HTTPServer, BaseHTTPRequestHandler
 content = '''
+<!doctype html>
 <html>
 <head>
   <title>TCP/IP Protocol Suite</title>
@@ -75,6 +76,8 @@ content = '''
   </ol>
 </body>
 </html>
+
+
 '''
 
 class Myserver(BaseHTTPRequestHandler):
@@ -90,9 +93,8 @@ httpd = HTTPServer(server_address, Myserver)
 httpd.serve_forever()
 ```
 # OUTPUT:
-![alt text](<Screenshot 2025-09-18 133554.png>)
-
 ![alt text](<Screenshot 2025-09-18 133626.png>)
+
 
 
 
