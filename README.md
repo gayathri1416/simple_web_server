@@ -96,9 +96,8 @@ httpd.serve_forever()
 
 ![alt text](<Screenshot 2025-09-20 143628.png>)
 
-![alt text](<Screenshot 2025-09-20 144239.png>)
 
-
+![alt text](<Screenshot 2025-09-20 162517.png>)
 
 
 
