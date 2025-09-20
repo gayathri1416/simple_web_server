@@ -93,7 +93,12 @@ httpd = HTTPServer(server_address, Myserver)
 httpd.serve_forever()
 ```
 # OUTPUT:
-![alt text](<Screenshot 2025-09-18 133626.png>)
+
+![alt text](<Screenshot 2025-09-20 143628.png>)
+
+![alt text](<Screenshot 2025-09-20 144239.png>)
+
+
 
 
 
