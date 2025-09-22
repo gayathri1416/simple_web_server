@@ -32,51 +32,42 @@ content = '''
 <body style="background-color: rgba(20, 243, 180, 0.19);">
   <h1 align="center">TCP/IP Protocol Suite</h1>
   
-  <ol>
-    <li style="color: rgb(0, 0, 18); font-weight: bold;font-size: large;">Application Layer
-      <ul style="color:rgb(6, 157, 162)">
-        <li>HTTP (HyperText Transfer Protocol)</li>
-        <li>HTTPS (HTTP Secure)</li>
-        <li>FTP (File Transfer Protocol)</li>
-        <li>SMTP (Simple Mail Transfer Protocol)</li>
-        <li>POP3 / IMAP</li>
-        <li>DNS (Domain Name System)</li>
-        <li>DHCP (Dynamic Host Configuration Protocol)</li>
-        <li>SSH (Secure Shell)</li>
-        <li>Telnet</li>
-        <li>SNMP (Simple Network Management Protocol)</li>
-      </ul>
-    </li>
+  <table border="1" align="center" cellpadding="10" cellspacing="0" style="border-collapse: collapse; font-size: 16px;">
+    <tr style="background-color:rgb(6, 157, 162) ; color: white; font-weight: bold; text-align: center;">
+      <th>Layer</th>
+      <th>Protocols</th>
+    </tr>
 
-    <li style="color: rgb(0, 0, 21); font-weight: bold;font-size: large">Transport Layer
-      <ul style="color:rgb(5, 152, 157)">
-        <li>TCP (Transmission Control Protocol)</li>
-        <li>UDP (User Datagram Protocol)</li>
-      </ul>
-    </li>
+    <tr>
+      <td style="font-weight:bold; color:rgb(0, 0, 18);">Application Layer</td>
+      <td style="color:rgb(6, 157, 162);">
+        HTTP, HTTPS, FTP, SMTP, POP3/IMAP, DNS, DHCP, SSH, Telnet, SNMP
+      </td>
+    </tr>
 
-    <li style="color: rgb(0, 0, 6); font-weight: bold;font-size: large" >Internet Layer
-      <ul style="color:rgb(6, 153, 158)">
-        <li>IP (IPv4 / IPv6)</li>
-        <li>ICMP (Internet Control Message Protocol)</li>
-        <li>IGMP (Internet Group Management Protocol)</li>
-        <li>ARP (Address Resolution Protocol)</li>
-      </ul>
-    </li>
+    <tr>
+      <td style="font-weight:bold; color:rgb(0, 0, 21);">Transport Layer</td>
+      <td style="color:rgb(5, 152, 157);">
+        TCP, UDP
+      </td>
+    </tr>
 
-    <li style="color: rgb(0, 0, 10); font-weight: bold;font-size: large">Network Access / Link Layer
-      <ul style="color:rgb(7, 138, 142)">
-        <li>Ethernet</li>
-        <li>PPP (Point-to-Point Protocol)</li>
-        <li>Wi-Fi (IEEE 802.11)</li>
-        <li>Frame Relay</li>
-        <li>Token Ring</li>
-      </ul>
-    </li>
-  </ol>
+    <tr>
+      <td style="font-weight:bold; color:rgb(0, 0, 6);">Internet Layer</td>
+      <td style="color:rgb(6, 153, 158);">
+        IP (IPv4/IPv6), ICMP, IGMP, ARP
+      </td>
+    </tr>
+
+    <tr>
+      <td style="font-weight:bold; color:rgb(0, 0, 10);">Network Access / Link Layer</td>
+      <td style="color:rgb(7, 138, 142);">
+        Ethernet, PPP, Wi-Fi (IEEE 802.11), Frame Relay, Token Ring
+      </td>
+    </tr>
+  </table>
 </body>
 </html>
-
 
 '''
 
@@ -93,11 +84,9 @@ httpd = HTTPServer(server_address, Myserver)
 httpd.serve_forever()
 ```
 # OUTPUT:
+![alt text](<Screenshot 2025-09-22 212530.png>)
+![alt text](<Screenshot 2025-09-22 212428.png>)
 
-![alt text](<Screenshot 2025-09-20 143628.png>)
-
-
-![alt text](<Screenshot 2025-09-20 162517.png>)
 
 
 
